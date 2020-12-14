@@ -1,0 +1,22 @@
+.btn {
+    color: $white;
+    background-color: $orange;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 900;
+    padding: 13px 26px;
+    height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid rgba(0,0,0,0);
+    &.btn-secondary {
+        font-weight: 300;
+        background-color: rgba(0,0,0,0);
+        color: $orange;
+        border: 2px solid $purple;
+    }
+    // &:hover {
+        
+    // }
+}

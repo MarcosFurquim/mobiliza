@@ -1,0 +1,21 @@
+#hero {
+    margin-top: 64px;
+    text-align: center;
+    .btn-group {
+        .btn + .btn {
+            margin-left: 30px;
+        }
+    }
+    .img-hero {
+        width: 100%;
+    }
+}
+#brands {
+    .brands-list {
+        flex-wrap: wrap;
+        li {
+            width: 20%;
+            text-align: center;
+        }
+    }
+}

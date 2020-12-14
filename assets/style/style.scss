@@ -1,3 +1,11 @@
+@import 'bootstrap-grid.min';
 @import './scss/fonts';
+@import './scss/variables';
 @import './scss/typography';
-@import '~bootstrap/dist/bootstrap-grid.css';
+
+@import './scss/components/nav';
+@import './scss/components/menu';
+@import './scss/components/button';
+@import './scss/components/list';
+
+@import './scss/page-home'

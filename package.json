@@ -5,7 +5,11 @@
   "main": "index.js",
   "author": "Marcos Furquim <marcosfurquim@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "sass": "node-sass -w --include-path node_modules/bootstrap/dist/css assets/style/style.scss assets/style/style.css"
+},
   "dependencies": {
-    "bootstrap": "^4.5.3"
+    "bootstrap": "^4.5.3",
+    "node-sass": "^5.0.0"
   }
 }
