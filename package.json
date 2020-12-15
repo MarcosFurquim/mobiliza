@@ -6,11 +6,19 @@
   "author": "Marcos Furquim <marcosfurquim@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "webpack --progress -w",
     "sass": "node-sass -w --include-path node_modules assets/style/style.scss assets/style/style.css"
-},
+  },
   "dependencies": {
     "bootstrap": "^4.5.3",
-    "node-sass": "^5.0.0"
+    "jquery": "^3.5.1",
+    "node-sass": "^5.0.0",
+    "path": "^0.12.7",
+    "popper.js": "^1.16.1",
+    "webpac": "^0.0.1-security",
+    "webpack": "^5.10.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.2.0"
   }
 }
-
