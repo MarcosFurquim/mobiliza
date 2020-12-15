@@ -5,7 +5,7 @@
     font-size: 12px;
     line-height: normal;
     font-weight: 900;
-    padding: 13px 26px;
+    padding: 11px 26px 13px;
     height: 40px;
     cursor: pointer;
     text-transform: uppercase;
@@ -15,6 +15,10 @@
         background-color: rgba(0,0,0,0);
         color: $orange;
         border: 2px solid $purple;
+    }
+    &.btn-large {
+        font-size: 16px;
+        padding: 9px 56px 11px;
     }
     // &:hover {
         

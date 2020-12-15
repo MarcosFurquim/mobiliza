@@ -1,0 +1,21 @@
+.nav-tabs {
+    justify-content: space-between;
+    .nav-item {
+        .nav-link {
+            background-color: transparent;
+            border: {
+                top: none;
+                left: none;
+                right: none;
+                bottom: 8px solid $purple;
+            };
+            color: $purple;
+            &.active {
+                font-weight: 900;
+                color: $orange;
+                border-bottom-color: $orange;
+            }
+        }
+    }
+
+}
