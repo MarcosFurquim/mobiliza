@@ -4432,6 +4432,13 @@ h3 {
   font-size: 20px;
   line-height: 28px; }
 
+h4, .text-lg {
+  font-size: 24px;
+  line-height: 32px; }
+
+strong {
+  font-weight: 900; }
+
 .subheader {
   font-weight: 300;
   font-size: 28px; }
@@ -4441,7 +4448,8 @@ nav#header {
   margin: 0 auto;
   padding: 10px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
 
 .menu-list .menu-item {
   text-transform: uppercase;
@@ -4475,11 +4483,32 @@ nav#header {
   .btn.btn-large {
     font-size: 16px;
     padding: 9px 56px 11px; }
+  .btn.btn-big {
+    font-size: 24px;
+    height: 53px; }
 
 ul {
   list-style: none;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin: 0;
+  padding: 0; }
+  ul.checklist {
+    display: block; }
+    ul.checklist li {
+      position: relative;
+      padding-left: 32px;
+      margin-bottom: 18px; }
+      ul.checklist li:before {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 20px;
+        height: 18px;
+        background: url("/assets/img/check.svg");
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%); }
 
 .nav-tabs {
   justify-content: space-between; }
@@ -4494,6 +4523,13 @@ ul {
       font-weight: 900;
       color: #F55523;
       border-bottom-color: #F55523; }
+
+.trial-banner {
+  background-color: #461E6E;
+  padding: 40px 80px;
+  color: #FFFFFF;
+  height: 160px;
+  border-radius: 10px; }
 
 #hero {
   margin-top: 64px;
@@ -4513,3 +4549,13 @@ ul {
   color: #FFFFFF;
   background-color: #461E6E;
   height: 460px; }
+
+#trial-banner {
+  background-color: #461E6E; }
+
+#diferenciais {
+  margin-top: 108px; }
+  #diferenciais h2 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto; }
