@@ -1,12 +1,13 @@
 .trial-banner {
     background-color: $purple;
-    padding: 40px 80px;
+    padding: 0px 80px;
     color: $white;
     height: 160px;
     border-radius: 10px;
     position: relative;
     max-width: calc(100% - 145px);
     margin: 0 auto;
+    
     &:before,&:after {
         content: '';
         position: absolute;

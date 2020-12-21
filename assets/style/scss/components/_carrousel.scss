@@ -1,6 +1,22 @@
 .splide {
-    &__slide {
-        padding-left: 15px;
-        padding-right: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    // &__slide {
+    // //    margin-right:30px;
+    // }
+    &__track {
+       
+    }
+    .splide__arrow {
+        background: none;
+        svg {
+            fill: $orange;
+        }
+       &--prev {
+            left: 0;
+        }
+        &--next {
+            right: 0;
+        }
     }
 }
