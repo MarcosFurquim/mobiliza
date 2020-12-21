@@ -1,0 +1,27 @@
+.testimonial-card {
+    border: 1px solid $purple;
+    background-color: $gray;
+    padding: 45px 60px;
+    position: relative;
+    box-shadow: 4px 4px 25px 0px hsla(0, 0%, 0%, 0.10);
+    p {
+        font-size: 12px;
+        &:before {
+            content: '“';
+            display: block;
+            position: absolute;
+            font-size: 72px;
+            color: $orange;
+            top: 0;
+            left: 0;
+        }
+    }
+    footer {
+        border-top: 1px solid $black;
+        font-size: 12px;
+        color: $purple;
+        .testimonial-name {
+            font-weight: 900;
+        }
+    }
+}

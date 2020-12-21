@@ -36,6 +36,8 @@
 // @import "bootstrap/scss/spinners";
 @import "bootstrap/scss/utilities";
 @import "bootstrap/scss/print";
+
+@import '@splidejs/splide/dist/css/splide.min';
 @import './scss/fonts';
 @import './scss/variables';
 @import './scss/typography';
@@ -46,5 +48,14 @@
 @import './scss/components/list';
 @import './scss/components/tab';
 @import './scss/components/trial-banner';
+@import './scss/components/carrousel';
+@import './scss/components/testimonial-card';
+@import './scss/components/post-card';
+@import './scss/components/newsletter';
+
+@import './scss/components/form/input';
+@import './scss/components/form/form-signup';
+
+@import './scss/components/footer';
 
 @import './scss/page-home'

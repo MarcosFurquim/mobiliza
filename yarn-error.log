@@ -2,7 +2,7 @@ Arguments:
   /usr/local/Cellar/node/14.5.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js run sass
 
 PATH: 
-  /Users/marcosfurquim/.rvm/gems/ruby-2.6.3/bin:/Users/marcosfurquim/.rvm/gems/ruby-2.6.3@global/bin:/Users/marcosfurquim/.rvm/rubies/ruby-2.6.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/usr/local/go/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/marcosfurquim/.rvm/gems/ruby-2.6.3/bin:/Users/marcosfurquim/.rvm/gems/ruby-2.6.3@global/bin:/Users/marcosfurquim/.rvm/rubies/ruby-2.6.3/bin:/Users/marcosfurquim/.rvm/bin:/Users/marcosfurquim/.rvm/bin
+  /usr/local/go/bin:/Users/marcosfurquim/.rvm/gems/ruby-2.6.3/bin:/Users/marcosfurquim/.rvm/gems/ruby-2.6.3@global/bin:/Users/marcosfurquim/.rvm/rubies/ruby-2.6.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/usr/local/go/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/marcosfurquim/.rvm/gems/ruby-2.6.3/bin:/Users/marcosfurquim/.rvm/gems/ruby-2.6.3@global/bin:/Users/marcosfurquim/.rvm/rubies/ruby-2.6.3/bin:/Users/marcosfurquim/.rvm/bin:/Users/marcosfurquim/.rvm/bin
 
 Yarn version: 
   1.22.4
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/marcosfurquim/projetos/Mobiliza/home avulsa/package.json: Unexpected string in JSON at position 290
+  SyntaxError: /Users/marcosfurquim/projetos/Mobiliza/home avulsa/package.json: Unexpected token / in JSON at position 202
       at JSON.parse (<anonymous>)
       at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
       at Generator.next (<anonymous>)
@@ -30,8 +30,9 @@ npm manifest:
     "author": "Marcos Furquim <marcosfurquim@gmail.com>",
     "license": "MIT",
     "scripts": {
-      "sass": "node-sass --include-path node_modules -o style/style.css style/style.scss"
-  }
+      // "sass": "node-sass -w --include-path node_modules/bootstrap/dist/css --include-path node_modules/bootstrap assets/style/style.scss assets/style/style.css"
+      "sass": "node-sass -w --include-path node_modules/bootstrap assets/style/style.scss assets/style/style.css"
+  },
     "dependencies": {
       "bootstrap": "^4.5.3",
       "node-sass": "^5.0.0"

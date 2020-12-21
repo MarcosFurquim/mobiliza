@@ -1,0 +1,16 @@
+.form-signup {
+    display: flex;
+    input {
+        border-right:none;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .btn {
+        padding:  6px 28px;
+        height:  30px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}

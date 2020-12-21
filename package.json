@@ -10,6 +10,7 @@
     "sass": "node-sass -w --include-path node_modules assets/style/style.scss assets/style/style.css"
   },
   "dependencies": {
+    "@splidejs/splide": "^2.4.21",
     "bootstrap": "^4.5.3",
     "jquery": "^3.5.1",
     "node-sass": "^5.0.0",

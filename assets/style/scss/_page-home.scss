@@ -40,3 +40,30 @@
         margin: 0 auto;
     }
 }
+
+#blog-posts {
+    .grid {
+        display: flex;
+        height: 464px;
+    }
+    .feature-card  {
+        width: 50%;
+        margin-right: 30px;
+        img {
+            height: 464px;
+            width: 100%;
+        }
+    }
+    .feature-cards {
+        width: 50%;
+        & > .post-blog-card:first-child {
+            margin-bottom: 30px;
+        }
+        img {
+            height: 216px;
+            width: 100%;
+            object-fit: cover;
+        }
+      
+    }
+}
