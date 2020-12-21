@@ -18,15 +18,28 @@
                     <ul class="menu-list">
                         <li class="menu-item">
                             <a>soluções</a>
-                            <!-- <ul class="submenu">
-                                <li></li>
-                            </ul> -->
+                            <ul class="submenu">
+                                <li>plataforma</li>
+                                <li>applique</li>
+                                <li>prateleira</li>
+                                <li>projetos</li>
+                            </ul>
                         </li>
                         <li class="menu-item">
                             <a>sobre nós</a>
+                            <ul class="submenu">
+                                <li>a mobiliza</li>
+                                <li>método T&D</li>
+                                <li>cases de sucesso</li>
+                                <li>trabalhe conosco</li>
+                            </ul>
                         </li>
                         <li class="menu-item">
                             <a>aprenda</a>
+                            <ul class="submenu">
+                                <li>blog</li>
+                                <li>materiais gratuitos</li>
+                            </ul>
                         </li>
                         <li class="menu-item">
                             <a>contato</a>
@@ -45,7 +58,12 @@
                         <button class="btn btn-secondary">descubra o porquê</button>
                         <button class="btn">solicite um teste grátis</button>
                     </div>
-                    <img class="img-hero" src="./assets/img/hero.png" />
+                    <div class="hero-image-wrapper">
+                        <img class="img-hero" src="./assets/img/hero/home_graphic_topo_notebook.png" />
+                        <div class="tags-floats">
+                            <img src="./assets/img/hero/tag-lucas.png">
+                        </div>
+                    </div>
                 </section>
                 <section id="brands">
                     <ul class="brands-list">
@@ -62,18 +80,18 @@
                     </ul>
                 </section>
                 <section id="produtos">
-                    <ul class="nav nav-tabs">
+                    <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#plataforma">Plataforma</a>
+                            <a class="nav-link active" data-toggle="tab" href="#plataforma">Plataforma</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#applique">Applique</a>
+                            <a class="nav-link" data-toggle="tab" href="#applique">Applique</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#prateleira">Prateleira</a>
+                            <a class="nav-link" data-toggle="tab" href="#prateleira">Prateleira</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projetos">Projetos</a>
+                            <a class="nav-link" data-toggle="tab" href="#projetos">Projetos</a>
                         </li>
                     </ul>
                     <div class="tab-content" id="produtos-content">
@@ -81,7 +99,6 @@
                             <div class="row h-100 justify-content-center align-items-center">
                                 <div class="col-md-6">
                                     <img class="img-fluid" src="./assets/img/produtos/produtos_plataforma.png">
-                                    
                                 </div>
                                 <div class="col-md-6">
                                     <h3>Plataforma</h3>
@@ -95,7 +112,6 @@
                             <div class="row h-100 justify-content-center align-items-center">
                                 <div class="col-md-6">
                                     <img class="img-fluid" src="./assets/img/produtos/produtos_applique.png">
-                                    
                                 </div>
                                 <div class="col-md-6">
                                     <h3>Applique</h3>
@@ -109,7 +125,7 @@
                         <div class="tab-pane fade" id="prateleira" role="tabpanel" aria-labelledby="prateleira-tab">
                             <div class="row h-100 justify-content-center align-items-center">
                                 <div class="col-md-6">
-                                    <img class="img-fluid" src="./assets/img/produtos/produtos_plataforma_mobile.png">
+                                    <img class="img-fluid" src="./assets/img/produtos/produtos_cursos prontos.png">
                                 </div>
                                 <div class="col-md-6">
                                     <h3>Prateleira</h3>
@@ -160,7 +176,7 @@
                                 <p class="text-lg"><strong>A única plataforma de T&D</strong> que sua empresa precisa.</p>
                             </div>
                             <div class="col-md-6">
-                                <button class="btn btn-primary btn-big">Solicite um teste</button>
+                                <button class="btn btn-primary btn-big btn-capitalize">Solicite um teste</button>
                             </div>
                         </div>
                     </div>
@@ -218,7 +234,7 @@
                                 <p class="text-lg">Plataforma <strong>segura</strong> e que atende a <strong>todos os dispositivos.</strong> </p>
                             </div>
                             <div class="col-md-6">
-                                <button class="btn btn-primary btn-big">Solicite um teste</button>
+                                <button class="btn btn-primary btn-big btn-capitalize">Solicite um teste</button>
                             </div>
                         </div>
                     </div>
@@ -365,7 +381,7 @@
                
             </div>
         </main>
-        <footer>
+        <footer id="footer">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">

@@ -1,6 +1,7 @@
 .nav-tabs {
     justify-content: space-between;
     .nav-item {
+        transform: translateY(4px);
         .nav-link {
             background-color: transparent;
             border: {

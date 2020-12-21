@@ -1,16 +1,42 @@
 #hero {
     margin-top: 64px;
     text-align: center;
+    h1 {
+        margin-bottom: 20px;
+    }
+    .subheader {
+        margin-bottom: 42px;
+    }
     .btn-group {
         .btn + .btn {
             margin-left: 30px;
         }
     }
-    .img-hero {
-        width: 100%;
+    .hero-image-wrapper {
+        position: relative;
+        .img-hero {
+            width: 100%;
+        }
+        .tags-floats {
+            img {
+                position: absolute;
+                width: 250px;
+                opacity: 0;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in-out;
+                animation-delay: 5s;
+                animation-fill-mode: forwards;
+                &:first-child {
+                    animation-name: floating-1;
+                }
+            }
+        }
     }
+   
 }
 #brands {
+    margin-top: 65px;
     .brands-list {
         flex-wrap: wrap;
         li {
@@ -20,17 +46,22 @@
     }
 }
 #produtos {
+    margin-top: 65px;
     #produtos-content {
         color: $white;
         background-color: $purple;
-        height: 460px;
+        height: 480px;
+        padding-right: 40px;
     }
 }
 #vantagens {
-
+    margin-top: 50px;
+    h2 {
+        margin-bottom: 40px;
+    }
 }
-#trial-banner {
-    background-color: $purple;
+#trial-banner-1 {
+    margin-top: 65px;
 }
 #diferenciais {
     margin-top: 108px;
